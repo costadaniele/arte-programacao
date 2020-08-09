@@ -1,0 +1,197 @@
+body {
+    background:#120524ff;
+    color: #fff;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pag-inicial {
+    background-color:#1f1b24;
+    padding: 20px;
+    border-radius: 8px;
+    width: 980px;
+    margin: 50px auto;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p, .description {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+
+}
+
+.description h4 {
+    color: #999;
+}
+
+#container {
+    width: 90%;
+    max-width: 980px;
+    margin: 50px auto;
+    /*filhos em linha*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-esquerdo,
+#menu-direito {
+    width: 50%;
+}
+
+#menu-esquerdo {
+    margin-right: 16px;
+}
+
+header {
+    margin: 32px;
+    text-align: center;
+}
+
+main {
+    margin: 32px 0;
+}
+
+footer{
+    text-align: center;  
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    font-weight: regular;
+    margin: 50px;
+    color: #999;
+}
+
+footer a {
+    color: #fd5a6dff;
+}
+
+h1,
+h3,
+p a {
+    color: #fbae1dff;
+}
+
+.info {
+    color: #fd5a6dff;
+}
+
+.menu {
+    display: flex;
+    margin-bottom: 12px;
+  /*  background-color: #120524ff; */
+    background-color: #1f1b24;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+.menu .sonicpi img{
+    border-radius:50%;
+}
+.description .img-conteudo {
+    
+    display: flex;
+    justify-content: center;
+ }
+
+.menu img{
+    width: 60px;
+    height: 60px;
+    margin-right: 32px;
+}
+
+.menu h3{
+    margin: 0;
+}
+
+.menu p {
+    margin: 8px 0;
+    color: #999;
+}
+
+.menu .description p {
+    margin: 16px 0;
+    color: #fff;
+}
+
+.description p .link a,
+.menu .description h5 {
+    color: #fd5a6dff;
+}
+
+.description .img-conteudo {
+    width: 50%;
+    height: 50%;
+}
+
+#conteudo #container {
+    display: block;
+}
+#conteudo header{
+    display: flex;
+    justify-content: center;
+}
+
+#conteudo nav{
+    display: flex;
+    align-items: stretch;
+}
+
+#conteudo nav li{
+    list-style-type: none;
+    margin-right: 16px;
+}
+
+#conteudo nav li a{
+    color: white;
+}
+
+#conteudo nav li:last-child {
+    margin: 0; 
+}
+
+
+#conteudo nav li:last-child a{
+    width: 120px;
+    height: 40px;
+    background-color: #fbae1dff;
+    color: #120524ff;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#conteudo nav li:last-child a:hover {
+    color: #777;
+    background-color: rgba(18, 18, 18, 0.5);
+    text-decoration: none;
+}
+
+#conteudo .menu{
+    margin: 22px;
+  }
+
+section#title{
+    text-align: center;
+    margin-bottom: 64px;
+    margin-top: 32px;
+}
+
+section#title p{
+    opacity: 0.7;
+    margin: 0;
+}
+
+section#title h1{
+    margin: 0;
+    font-size: 28px;
+}
+
