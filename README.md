@@ -8,3 +8,4 @@ O encontro aconteceu no dia 6 de agosto de 2020 pelo SONatório (Laboratório de
 
 ![](arte-programacao.gif)
 
+[Deploy](https://arteprogramacao.netlify.app/)
